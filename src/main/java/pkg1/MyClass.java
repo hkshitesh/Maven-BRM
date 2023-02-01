@@ -4,18 +4,13 @@ public class MyClass {
 	{
 		System.out.println("Hello DevOps! Welcome to Jenkins");
 	}
-	public void diplay()
+	public void TestBuild()
 	{
-		System.out.println("Hello World!");
+		System.out.println("My Second Build");
 	}
-	public void f3()
+	public static void main(String[] args) 
 	{
-		System.out.println("F3!");
-	}
-	public static void main(String[] args) {
-
 		MyClass ob = new MyClass();
 		ob.show();
 	}
-
 }
