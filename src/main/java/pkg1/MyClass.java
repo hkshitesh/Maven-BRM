@@ -2,13 +2,7 @@ package pkg1;
 public class MyClass {
 	public void show()
 	{
-		System.out.println("Hello DevOps! Welcome to Jenkins");
-		System.out.println("Hello GFG");
-		System.out.println("Hello GFG 4");
-	}
-	public void TestBuild()
-	{
-		System.out.println("My Second Build");
+		System.out.println("Hello GFG! Welcome to Jenkins");
 	}
 	public static void main(String[] args) 
 	{
