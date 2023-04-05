@@ -3,6 +3,7 @@ public class MyClass {
 	public void show()
 	{
 		System.out.println("Hello DevOps! Welcome to Jenkins");
+		System.out.println("Hello GFG");
 	}
 	public void TestBuild()
 	{
