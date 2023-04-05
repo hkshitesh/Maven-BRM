@@ -4,7 +4,7 @@ public class MyClass {
 	{
 		System.out.println("Hello DevOps! Welcome to Jenkins");
 		System.out.println("Hello GFG");
-		System.out.println("Hello GFG 3");
+		System.out.println("Hello GFG 4");
 	}
 	public void TestBuild()
 	{
