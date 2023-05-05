@@ -4,11 +4,16 @@ pipeline {
     maven 'MAVEN_HOME' 
   }
   stages {
-    stage ('Build') {
+    stage ('Clean') {
       steps {
-        bat 'mvn clean package'
+       bat 'mvn clean'
       }
     }
+    stage ('Test') {
+      steps {
+        bat 'mvn test'
+      }
+    }    
     stage ('Deploy') {
       steps {
        echo 'Deployed'
