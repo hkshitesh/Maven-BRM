@@ -14,6 +14,11 @@ pipeline {
         bat 'mvn test'
       }
     }    
+    stage ('package') {
+      steps {
+        bat 'mvn package'
+      }
+    }   
     stage ('Deploy') {
       steps {
        echo 'Deployed'
